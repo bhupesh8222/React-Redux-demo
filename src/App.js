@@ -5,12 +5,12 @@ import { store } from "./redux/RootReducer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
+import UserContainer from "./components/UserContainer";
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <NewCakeContainer />
-        <IceCreamContainer />
+        <UserContainer />
       </div>
     </Provider>
   );
